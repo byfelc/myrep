@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f8f1e9;
+    color: #4b2e2a;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+.receta-contenedor {
+    max-width: 800px;
+    margin: 0 auto;
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.receta-encabezado {
+    width: 100%;
+}
+
+.receta-imagen {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.receta-contenido {
+    padding: 20px;
+}
+
+.receta-titulo {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #4b2e2a;
+}
+
+.receta-descripcion {
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 20px;
+    color: #85624c;
+}
+
+.fondo-morado {
+    background-color: #f3e8ff;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.fondo-morado h2 {
+    margin-top: 0;
+    color: #6b2ebf;
+}
+
+.ingredientes, .instrucciones {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding-left: 20px;
+}
+
+.ingredientes h2,
+.instrucciones h2,
+.nutricion h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #85624c;
+}
+
+ul, ol {
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+ul li, ol li {
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.instrucciones ol li strong {
+    font-weight: 600;
+    color: #4b2e2a;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+thead th {
+    text-align: left;
+    color: #4b2e2a;
+    font-weight: 600;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 8px;
+}
+
+tbody td {
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+    font-weight: 400; /* Sin negritas */
+    color: #000; /* Negro */
+    text-align: left; /* Posición izquierda sin cambios */
+}
+
+tbody td:nth-child(2) {
+    text-align: left;
+    font-weight: 600;
+    color: #85624c; /* Mantiene el estilo del lado derecho */
+}
+
+@media (max-width: 768px) {
+    .receta-contenedor {
+        padding: 10px;
+    }
+
+    .receta-titulo {
+        font-size: 1.5rem;
+    }
+
+    .ingredientes h2,
+    .instrucciones h2,
+    .nutricion h2 {
+        font-size: 1.25rem;
+    }
+}
