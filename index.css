@@ -109,15 +109,15 @@ thead th {
 tbody td {
     padding: 10px 0;
     border-bottom: 1px solid #ddd;
-    font-weight: 400; /* Sin negritas */
-    color: #000; /* Negro */
-    text-align: left; /* Posición izquierda sin cambios */
+    font-weight: 400; 
+    color: #000; 
+    text-align: left; 
 }
 
 tbody td:nth-child(2) {
     text-align: left;
     font-weight: 600;
-    color: #85624c; /* Mantiene el estilo del lado derecho */
+    color: #85624c; 
 }
 
 @media (max-width: 768px) {
